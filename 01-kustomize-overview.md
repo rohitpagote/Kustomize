@@ -18,7 +18,7 @@
         - Create a <code>base</code> folder consisting of <code>nginx-deployment.yaml</code> manifest file (or any other files that need to be managed by Kustomize) and <code>Kustomization.yaml</code>.
         - <code>Kustomization.yaml</code> will include the resources that will be managed by Kustomize.
         - Create an <code>overlays</code> folder consisting of three different folders based on the environments (DEV, STAGE and PROD).
-        - Each of this environment folder will consists of <code>Kustomization.yaml<code> file which include the path of <code>base</code> folder and the patches which will be used to customize the parent YAML manifests.
+        - Each of this environment folder will consists of <code>Kustomization.yaml</code> file which include the path of <code>base</code> folder and the patches which will be used to customize the parent YAML manifests.
 
 ---
 
